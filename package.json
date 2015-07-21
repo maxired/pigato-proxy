@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "bin": "bin/index.js",
   "scripts": {
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "test": "mocha tests"
   },
   "author": "Maxence Dalmais <github@maxired.fr>",
   "license": "MIT",
